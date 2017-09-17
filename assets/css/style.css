@@ -1,0 +1,475 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://Alvarez.is
+ *
+ * Project Name: NYC Design
+ * Version: 1.0
+ * Date: 04-20-2014
+ * URL: 
+ */
+
+
+/* ==========================================================================
+   Base Styles, Bootstrap Modifications & Fonts Import
+   ========================================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+::selection {
+    background: #16a085;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 80px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+    color: #4a4a4a;
+}
+
+
+.navbar-brand {
+	font-weight: 700;
+}
+
+.navbar-default .navbar-brand {
+	color: #1abc9c;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #1abc9c;
+	background-color: transparent;
+	border-bottom: 2px solid #1abc9c
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #1abc9c;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../img/back.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #ffffff;
+}
+
+#social {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f2f2f2;
+}
+
+#social i {
+	font-size: 40px;
+	color: #4a4a4a
+}
+
+#social i:hover {
+	color: #1abc9c
+}
+
+#footerwrap {
+	padding-top: 70px;
+	padding-bottom: 50px;
+	background-color: #2f2f2f;
+}
+
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
+}
+
+#workwrap {	
+	background: url(../img/work.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#workwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
+}
+#cvwrap {	
+	margin-top: -70px;
+	padding-top: 150px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 400px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#cvwrap h1 {
+	color:black;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+#cvwrap h4 {
+	font-weight: 400;
+	color: black;
+}
+
+#aboutwrap {	
+	background: url(../img/about.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 550px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #1abc9c;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  color: aliceblue;
+  background-color: #444;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Gallery */
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery img:hover {
+	opacity: 0.4;
+}
+* {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html, body {
+  font-family: 'Lato', helvetica, arial, sans-serif;
+  font-size: 16px;
+  color: #222;
+}
+
+.clear {
+  clear: both;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #2B2B2B;
+}
+
+#cv {
+  width: 90%;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.mainDetails {
+  padding: 25px 35px;
+  border-bottom: 2px solid #2B2B2B;
+}
+
+#name h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  margin-bottom: -6px;
+}
+
+#name h2 {
+  font-size: 2em;
+  margin-left: 2px;
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+  padding: 0 40px;
+}
+
+#name {
+  float: left;
+}
+
+#contactDetails {
+  float: right;
+}
+
+#contactDetails ul {
+  list-style-type: none;
+  font-size: 0.9em;
+  margin-top: 2px;
+}
+
+#contactDetails ul li {
+  margin-bottom: 3px;
+  color: #444;
+}
+
+#contactDetails ul li a, a[href^=tel] {
+  color: #444;
+  text-decoration: none;
+}
+
+#contactDetails ul li a:hover {
+  color: #DE1B1B;
+}
+
+section {
+  border-top: 1px solid #3B3738;
+  padding: 20px 0 0;
+}
+
+section:first-child {
+  border-top: 0;
+}
+
+section:last-child {
+  padding: 20px 0 10px;
+}
+
+.sectionTitle {
+  float: left;
+  width: 25%;
+}
+
+.sectionContent {
+  float: right;
+  width: 72.5%;
+}
+
+.sectionTitle h1 {
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 1.5em;
+  color: #2B2B2B;
+}
+
+.sectionContent h2 {
+  font-family: "Rokkitt", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: -2px;
+}
+
+.subDetails {
+  font-size: 0.8em;
+  font-style: italic;
+  margin-bottom: 3px;
+}
+
+.keySkills {
+  list-style-type: none;
+  column-count: 3;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #444;
+}
+
+.keySkills ul li {
+  margin-bottom: 3px;
+}
+
+.keySkills {
+  column-count: 2;
+}
+
+#cv {
+  width: 95%;
+  margin: 10px auto;
+  min-width: 280px;
+}
+
+#name, #contactDetails {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+.sectionTitle, .sectionContent {
+  float: none;
+  width: 100%;
+}
+
+.sectionTitle {
+  margin-left: -2px;
+  font-size: 1.25em;
+}
+
+.keySkills {
+  column-count: 2;
+}
+
+.mainDetails {
+  padding: 15px 15px;
+}
+
+section {
+  padding: 15px 0 0;
+}
+
+#mainArea {
+  padding: 0 25px;
+}
+
+.keySkills {
+  column-count: 1;
+}
+
+#name h1 {
+  line-height: .8em;
+  margin-bottom: 4px;
+}
+
+
+li {
+  display: inline-block;
+  padding-left: 10px;
+  text-align: center;
+}
