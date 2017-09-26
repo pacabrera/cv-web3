@@ -83,13 +83,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-	background-color: transparent;
+	background-color: black;
 	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: white;
-	background-color: transparent;
+	background-color: black;
 	border-bottom: 2px solid #1abc9c
 }
 
