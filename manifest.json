@@ -1,0 +1,15 @@
+{
+  "short_name": "Paul Cabrera | CV",
+  "name": "Paul Andrey Cabrera",
+  "icons": [
+    {
+      "src":"https://thoseicons.com/assets/img/logo.svg",
+      "sizes": "192x192",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#000",
+  "Theme_color": "#536878",
+  "display": "standalone"
+}
